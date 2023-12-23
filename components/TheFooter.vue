@@ -27,18 +27,7 @@
         This project uses the TMDB API but is not endorsed or certified by TMDB.
       </p>
     </div>
-    <div flex gap4 items-center>
-      <ExternalLinks
-        :links="{
-          twitter_id: 'nuxt_js',
-          github_id: 'nuxt/movies',
-        }"
-      >
-        <a href="https://vercel.com" rel="noopener" target="_blank" aria-label="go to vercel">
-          <IconVercel alt="Vercel" />
-        </a>
-      </ExternalLinks>
-
+    <div flex gap4 items-center w-full>
       <LanguageSwitcher />
     </div>
   </footer>
