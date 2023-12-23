@@ -42,7 +42,7 @@ export default defineNuxtConfig({
   },
   nitro: {
     routeRules: {
-      '/**': { isr: false, cors: true, cache: { swr: true, maxAge: 3000, staleMaxAge: 60, headersOnly: true } },
+      '/**': { isr: false, cors: true },
     },
     runtimeConfig: {
       public: {
